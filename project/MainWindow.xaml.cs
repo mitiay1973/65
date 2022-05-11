@@ -24,5 +24,11 @@ namespace project
         {
             InitializeComponent();
         }
+
+        private void MatPlat_Click(object sender, RoutedEventArgs e)
+        {
+            int a = 1;
+            int b = 2;
+        }
     }
 }

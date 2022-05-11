@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="proc" Content="Процессоры" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="MatPlat" Content="Материнские платы" HorizontalAlignment="Left" Margin="89,60,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="MatPlat" Content="Материнские платы" HorizontalAlignment="Left" Margin="89,60,0,0" VerticalAlignment="Top" Click="MatPlat_Click"/>
         <Button x:Name="opera" Content="Оперативная память" HorizontalAlignment="Left" Margin="208,60,0,0" VerticalAlignment="Top"/>
         <Button x:Name="oxlad" Content="Охлаждение" HorizontalAlignment="Left" Margin="331,60,0,0" VerticalAlignment="Top"/>
         <Button x:Name="korp" Content="Корпуса" HorizontalAlignment="Left" Margin="409,60,0,0" VerticalAlignment="Top"/>
